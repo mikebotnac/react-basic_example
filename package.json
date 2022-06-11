@@ -1,0 +1,48 @@
+{
+  "name": "react-website-basic-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "`react-website` basic example",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel --no-cache src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catamphetamine/react-website-basic-example.git"
+  },
+  "keywords": [
+    "react",
+    "website",
+    "example",
+    "basic"
+  ],
+  "author": "@catamphetamine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catamphetamine/react-website-basic-example/issues"
+  },
+  "homepage": "https://github.com/catamphetamine/react-website-basic-example#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-website": "^3.1.24",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "parcel-bundler": "^1.11.0",
+    "postcss-custom-properties": "^8.0.9",
+    "postcss-nested": "^4.1.0",
+    "react-hot-loader": "^4.2.0"
+  }
+}
